@@ -14,7 +14,6 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="492dp">
 
@@ -23,16 +22,17 @@
             android:id="@+id/txtSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="66dp"
             android:fontFamily="@font/poppins_bold"
             android:text="SIGN UP"
             android:textAlignment="center"
             android:textColor="#758467"
-            android:textSize="25dp"
-            app:layout_constraintBottom_toTopOf="@+id/txtdesc"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.116" />
 
         <TextView
             android:id="@+id/txtdesc"
@@ -42,7 +42,7 @@
             android:text="Create your Budget Bite Share Account"
             android:textAlignment="center"
             android:textColor="#758467"
-            android:textSize="16dp"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtSignup" />
@@ -60,7 +60,7 @@
             app:startIconTint="#758467"
             tools:ignore="MissingConstraints">
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/fname"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
@@ -91,7 +91,7 @@
             app:startIconTint="#758467"
             tools:ignore="MissingConstraints">
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/email1"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
@@ -126,7 +126,7 @@
             app:startIconTint="#758467"
             tools:ignore="MissingConstraints">
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/password1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -156,7 +156,7 @@
             app:startIconTint="#758467"
             tools:ignore="MissingConstraints">
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/conpassword1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

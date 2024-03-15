@@ -54,7 +54,7 @@
             app:startIconTint="#758467"
             tools:ignore="MissingConstraints">
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/email"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
@@ -85,7 +85,7 @@
             app:startIconTint="#758467"
             tools:ignore="MissingConstraints">
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
