@@ -7,13 +7,13 @@
     android:layout_height="match_parent"
     android:background="#DFE6DA"
     android:orientation="vertical"
-    android:padding="40dp"
     tools:context=".SignupActivity">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="40dp"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="492dp">
 
@@ -52,6 +52,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="47dp"
+            android:textColorHint="@color/dark_green"
+            app:boxStrokeColor="@color/dark_green"
+            style="@style/LoginTextInputLayoutStyle"
             app:layout_constraintBottom_toTopOf="@+id/email1_layout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -83,6 +86,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:layout_marginBottom="15dp"
+            android:textColorHint="@color/dark_green"
+            app:boxStrokeColor="@color/dark_green"
+            style="@style/LoginTextInputLayoutStyle"
             app:layout_constraintBottom_toTopOf="@+id/password1_layout"
             app:layout_constraintEnd_toEndOf="@+id/fname_layout"
             app:layout_constraintStart_toStartOf="@+id/fname_layout"
@@ -117,6 +123,9 @@
             android:layout_marginTop="-13dp"
             android:layout_marginBottom="21dp"
             android:orientation="horizontal"
+            android:textColorHint="@color/dark_green"
+            app:boxStrokeColor="@color/dark_green"
+            style="@style/LoginTextInputLayoutStyle"
             app:layout_constraintBottom_toTopOf="@+id/conpassword1_layout"
             app:layout_constraintEnd_toEndOf="@+id/email1_layout"
             app:layout_constraintStart_toStartOf="@+id/email1_layout"
@@ -147,6 +156,9 @@
             android:layout_marginTop="-21dp"
             android:layout_marginBottom="119dp"
             android:orientation="horizontal"
+            android:textColorHint="@color/dark_green"
+            app:boxStrokeColor="@color/dark_green"
+            style="@style/LoginTextInputLayoutStyle"
             app:layout_constraintBottom_toTopOf="@+id/button2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/password1_layout"
