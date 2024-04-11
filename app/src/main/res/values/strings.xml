@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">BBSMobile</string>
     <string name="default_web_cliend_id">278267139619-tqg1j0k8i5g91bqqng64o4nvcrmt3i2c.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">441552175056826</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
