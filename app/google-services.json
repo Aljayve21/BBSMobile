@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "278267139619",
+    "project_id": "login-register-bacb7",
+    "storage_bucket": "login-register-bacb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278267139619:android:7181d529d9b51004890396",
+        "android_client_info": {
+          "package_name": "com.example.bbsmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278267139619-70qjor29nli5l98amehb9e5unvie34n4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bbsmobile",
+            "certificate_hash": "bf7805d31eb7523b88782ae3f7d535fc9d9a727a"
+          }
+        },
+        {
+          "client_id": "278267139619-tqg1j0k8i5g91bqqng64o4nvcrmt3i2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAueATfF4mDAB9owQOgzbCCAexPybe6bUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278267139619-tqg1j0k8i5g91bqqng64o4nvcrmt3i2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
